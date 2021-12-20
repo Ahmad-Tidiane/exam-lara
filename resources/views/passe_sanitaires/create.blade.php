@@ -66,15 +66,25 @@
                             </div>
                         </div>
                     </div><br>
+                     <div class="col-75-m">
+                                <label for="nom">Nom</label><br>
+                                <select name="type-vaccin" id="cars">
+                                    <option value="Astrazeneca">Astrazeneca</option>
+                                    <option value="Johnoson Johnson">Johnoson Johnson</option>
+                                    <option value="mercedes">autre</option>
+
+                                </select>
+                            </div>
+
                     <!-- En cas d'urgence cocher  -->
-                    <div id="urgence">
+                    {{-- <div id="urgence">
                         <input type="checkbox" onclick="billett()">&nbsp;&nbsp;
                         <label for="">Cocher en cas d'urgence ( optionnel )</label>
 
                         <div class="billet" id="divCacher" style="display: none;">
                             <label for="billet">Billet d'avion / VISA / Autres</label><br>
                             <input type="file" id="billet" name="billet"><br>
-                        </div>
+                        </div> --}}
                     </div><br><br>
                     <div class="row">
                         <input type="submit" value="Envoyer">

@@ -40,6 +40,7 @@ class PasseSanitaireController extends Controller
             'nom' => 'required',
             'telephone' => 'required|',
             'email' => 'required',
+            'type-vaccin' => 'required',
             'cv_recto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1999',
             'cv_verso' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1999',
             'cni_recto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:1999',
