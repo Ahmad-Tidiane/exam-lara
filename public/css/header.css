@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.containn{
+    width: 1024px;
+    margin: auto;
+}
+#banner{
+    width: 100%;
+    height: auto;
+}
